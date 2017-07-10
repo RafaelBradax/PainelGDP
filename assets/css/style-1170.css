@@ -1,0 +1,65 @@
+
+@media screen and (min-width:960px) and (max-width:1170px){
+
+	/* Titulo do Site */ 
+	.header hgroup{ padding:20px 0; }
+	.header hgroup h1{ font-size: 60px; }
+	.header hgroup h2{ font-size: 18px; }
+
+
+	/* Navbar */
+	.logo{
+		width: 60%;
+		margin: auto;
+		float: left;
+	}
+	.centro {
+		margin-left: 12%;
+		margin-top: 10px;
+	}
+	.centro{
+		margin: 0;
+		padding: 0;
+	}
+	.centro li{
+		font-size: 25px;
+		text-align: center;
+	}
+	.centro a:hover{
+		color:#000;
+		border-radius: 10px;
+	}
+	.centro a{ color:#fff; }
+	.centro a:visited{ color: #fff; }
+	.secretaria{ display: block; }
+	
+	
+	/* Altura dos Banners */
+	.banner-text h1{ padding: 10px 0; }
+
+	/* Ônibus */
+	.bus-prefix img{
+		float: left;
+		margin: 20px auto;
+	}
+	.bus-prefix p{
+		font-size: 28px;
+		margin: 34px 0 0 15px;
+		}
+	.bus-content p{ text-align: justify; }
+	.bus-content h4{ text-align: center; }
+
+
+	/* Logo da Secretaria */
+	.secretaria{display: none; }
+
+
+/* Icones das Secões */
+	.icone{margin:10px; }
+
+	/* Titulo dos conteúdos */
+	.section-geral h4{ margin-top:20px; }
+
+	/* Mapa */
+	.map{ height: 500px; }
+}

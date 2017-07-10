@@ -1,0 +1,32 @@
+@media screen and (min-width: 480px) and (max-width: 768px){
+	
+	/*Titulo do Site*/
+		.header hgroup{ padding:20px 0; }
+		.header hgroup h1{ font-size: 60px; }
+		.header hgroup h2{ font-size: 24px; }
+
+	/* Home page */
+	.painel { top:70px; }
+	a.trigger{ top:70px; } 
+	a.trigger:hover { top:70px; }
+	.links{ width: 100%; } 
+	.links a{width: 80%; } 
+	.links a img{ width:32px; }
+
+	/* Other Pages */
+	.navbar li{ text-align: center; } 
+	.bus-prefix img{
+		margin: 5px 10px 0 0;
+		width: 64px;
+		float: left;
+	}
+	.bus-prefix h1{
+		font-size: 30px;
+		float:left;
+	}
+	.bus-content h3{font-size: 24px;}
+	.bus-content p{font-size: 18px;}
+	.section-geral p{ font-size: 20px; }
+}
+
+}
