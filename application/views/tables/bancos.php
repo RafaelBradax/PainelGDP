@@ -13,7 +13,7 @@
 				<div class="col-md-9 col-sm-9 col-xs-12">
 					<section class="panel panel-default">
 						<h2 class="text-center">Conteúdo do Guia</h2>
-						<h4 class="text-center">Restaurantes</h4>
+						<h4 class="text-center">Bancos</h4>
 						<?php $this->load->view('templates/status.php'); ?>
 						<table class="table">
 							<thead>
@@ -31,7 +31,7 @@
 										<td><?= $dados[$i]['name']; ?></td>
 										<td><?= $desc[0]; ?></td>
 										<td><?= $desc[1]; ?></td>
-										<td></td>
+										<td>Ações a serem tomadas</td>
 									</tr>
 								<?php endfor; ?>
 							</tbody>

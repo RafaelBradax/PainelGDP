@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'main';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route['hoteis'] = 'main/hoteis';
+$route['hoteis/(:num)'] = 'main/hoteis/$1';
 $route['restaurantes'] = 'main/restaurantes';
 $route['fastfoods'] = 'main/fastfoods';
 $route['bancos'] = 'main/bancos';

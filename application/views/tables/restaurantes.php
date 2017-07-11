@@ -31,7 +31,7 @@
 										<td><?= $dados[$i]['name']; ?></td>
 										<td><?= $desc[0]; ?></td>
 										<td><?= $desc[1]; ?></td>
-										<td></td>
+										<td>Ações a serem tomadas</td>
 									</tr>
 
 								<?php endfor; ?>

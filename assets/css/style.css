@@ -91,3 +91,6 @@ body{
 .sort{
     background-color: #FFF;
 }
+.table thead th{
+    text-align: center;
+}

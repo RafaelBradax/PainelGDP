@@ -39,6 +39,12 @@
 								<?php endfor; ?>
 							</tbody>
 						</table>
+						<nav aria-label="...">
+							<ul class="pager">
+								<li><button class="btn" onclick="window.location.href='<?= $current_page-1; ?>';" <?= $disabled_previous; ?>>Previous</button></li>
+								<li><button class="btn" onclick="window.location.href='<?= $current_page+1; ?>';" <?= $disabled_next; ?>>Next</button></li>
+							</ul>
+						</nav>
 					</section>
 				</div>
 			</div>

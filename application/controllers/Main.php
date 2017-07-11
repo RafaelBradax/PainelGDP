@@ -28,7 +28,15 @@ class Main extends CI_Controller {
 		$this->load->view('main_page',$dados);
 	} // Final di metodo INDEX
 
-	public function hoteis(){
+	public function hoteis($page = null){
+		if ($page == null):
+			$dados['current_page'] = 1;
+		else:
+			$dados['current_page'] = $page;
+		endif;
+		
+		$dados['disabled_previous'] = "";
+		$dados['disabled_next'] = "";
 		$dados['dados'] = $this->hotels->get_table();
 		$this->load->view('tables/hoteis',$dados);
 	}
