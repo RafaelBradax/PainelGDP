@@ -1,4 +1,4 @@
-<header class="header">
+<header id="header" class="header">
 	<div class="navbar navbar-inverse">
 		<div class="container">
 			<div class="navbar-header">
@@ -8,7 +8,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="navbar-brand" href="http://ital.agricultura.sp.gov.br/" target="_blank" title="Ir para o site do ITAL"><img src="<?= base_url('/assets/images/logo-ital.png'); ?>" alt=""></a>
+				<a class="navbar-brand" href="http://ital.agricultura.sp.gov.br/" target="_blank" title="Ir para o site do ITAL"><img src="/guiarestrito/images/logo-ital.png" alt=""></a>
 			</div>
 			<div class="collapse navbar-collapse" id="barra-topo">
 				<ul class="nav navbar-nav navbar-right">
@@ -17,8 +17,20 @@
 			</div>
 		</div>
 	</div>
-	<hgroup class="title">
-		<h1>Sistema de Assinaturas</h1>
-		<h2>Área restrita</h2>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="collapse navbar-collapse" id="barra-topo">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="http://ulaula.ital.sp.gov.br/novoguia/" target="_blank" title="Ir para o site do Guia">Guia do Participante</a>
+					</li>
+				</ul>	
+				
+			</div>
+		</div>
+	</nav>
+	<hgroup>
+		<h1>Guia do Participante</h1>
+		<h2>Área Administrativa</h2>
 	</hgroup>
 </header>

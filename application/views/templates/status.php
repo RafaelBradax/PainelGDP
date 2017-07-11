@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-md-offset-2 col-md-8"> 
+    <div class="col-md-offset-4 col-md-4"> 
         <?php if( ($_SERVER['REQUEST_METHOD']=='GET') and (isset($_GET['status'])) and ($_GET['status'] == 'created' ) ): ?>
 
 
