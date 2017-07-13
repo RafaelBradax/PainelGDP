@@ -94,3 +94,10 @@ body{
 .table thead th{
     text-align: center;
 }
+.pager li button{
+    border-radius: 2px;
+    border-width: 0;
+    padding: 5px;
+    width: 150px;
+    background-color: #bbb;
+}

@@ -7,7 +7,7 @@ class Services_model extends CI_Model {
 		parent::__construct();
 	}
 
-	public function get_total_rows($serv_type){
+	public function count_all($serv_type){
 		$sql = 'SELECT * FROM services INNER JOIN type_services ON services.serv_type = type_services.type_services_id WHERE type_services.type_services_name = ?' ;
 		$query = $this->db->query($sql,$serv_type);
 		$row = $query->num_rows();
